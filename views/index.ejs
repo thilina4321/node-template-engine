@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+  <p class="color">
+    Hello World! This is the first step to learn traditional web development
+    with node. You are welcome to coding world and you will learn zero to hero.
+    (traditional to micro-frontend + micro-services)
+  </p>
+
+  <p><%= path %></p>
+
+  <% if(game) { %>
+     game
+ <% } else { %> not  <% } %>
+
+ <% products.forEach((pro)=> { %>
+     <p> <%= pro.name%> </p>
+     <p> <%= pro.age%> </p>
+ <% } ) %>
+</body>
